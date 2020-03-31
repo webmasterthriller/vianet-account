@@ -1,0 +1,98 @@
+	@-ms-viewport {
+			width: device-width;
+		}
+		@-o-viewport {
+			width: device-width;
+		}
+		@viewport {
+			width: device-width;
+		}
+		
+	body.login div#language-selector-active-language {width: 129px;}
+    body.login div#language-selector ul#language-selector-list,            
+    html.csstransforms3d body.login div#language-selector ul#language-selector-list,
+    html.csstransforms3d body.login div#language-selector ul#language-selector-list.open{ right: -129px; width: 129px;}                
+    html.csstransforms3d body.login div#language-selector ul#language-selector-list.open { 
+    	transform: translate3d(-129px, 0, 0); 
+    	-webkit-transform: translate3d(-129px, 0, 0);                    -ms-transform: translate3d(-129px, 0, 0);
+    }
+    body.login div#language-selector ul#language-selector-list li,                
+    body.login div#language-selector ul#language-selector-list li a { width: 100%; }
+    html.csstransforms3d div.fold-out-menu,
+  	html.csstransforms3d div.fold-out-menu-right,                
+	  html.csstransforms3d div.fold-out-menu-left,                
+		html.csstransforms3d div#language-selector ul#language-selector-list {
+		-webkit-transition: transform .3s ease-in-out;                    
+		-moz-transition: transform .3s ease-in-out;                    
+		-ms-transition: transform .3s ease-in-out;                    
+		-o-transition: transform .3s ease-in-out;                    
+		transition: transform .3s ease-in-out;            
+		}
+@media screen and (min-width: 600px){                       
+			#footer-links { width: 232px;}                        
+			#footer-copyright-notice {margin-left: 232px; }                    
+		}                    
+		@media screen and (min-width: 920px){                        
+		#footer-links {  width: 437px;}                        
+		#footer-copyright-notice { margin-left: 437px; }                        
+		#footer-links ul#footer-links-1 { width: 232px;  }                        
+		#footer-links ul#footer-links-2 { width: 205px; }                    }
+
+.nanoGuidance{position:absolute;background:#fff;border:1px solid #ccc;padding:10px;#width:300px;min-width:90px;max-width:300px;height:auto;top:0;left:0;display:none;z-index:2000}
+			.nanoGuidance .triangle{width:0;height:0;border:20px solid transparent;position:absolute;z-index:2010}
+			.nanoGuidance .triangleBorder{width:0;height:0;border:18px solid transparent;position:absolute}
+			.nanoGuidance.positionRight .triangle{top:calc(50% - 20px);left:-36px;right:auto;bottom:auto;border-right:16px solid #fff}
+			.nanoGuidance.positionRight .triangleBorder{top:calc(50% - 27px);left:-36px;right:auto;bottom:auto;border-right:16px solid #ccc}
+			.nanoGuidance.positionLeft .triangle{top:calc(50% - 27px);right:-36px;left:auto;bottom:auto;border-left:16px solid #fff}
+			.nanoGuidance.positionLeft .triangleBorder{right:-36px;top:5px;left:auto;bottom:auto;border-left:18px solid #ccc}
+			.nanoGuidance.positionBottom .triangle{left:calc(50% - 20px);top:-36px;border-bottom:16px solid #fff}
+			.nanoGuidance.positionBottom .triangleBorder{left:5px;top:-36px;border-bottom:18px solid #ccc}
+			.nanoGuidance.positionAbove .triangle{left:calc(50% - 20px);bottom:-36px;border-top:16px solid #fff}
+			.nanoGuidance.positionAbove .triangleBorder{left:5px;bottom:-36px;border-top:16px solid #ccc}
+			.nanoGuidance .currentText{font-size:14px;margin-bottom:10px;padding-right:10px}
+			.nanoGuidance.fixed{left:50%;top:50%;position:fixed}.nanoGuidance .stopGuide{position:absolute;right:2px;top:2px;color:#555;font-size:14px;width:14px;height:14px;cursor:pointer;font-family:monospace;line-height:14px;text-align:center}
+			.nanoGuidance .stepsPoint{width:8px;height:8px;border:1px solid #555;border-radius:5px;float:left;margin-right:5px;margin-top:7px;background:#fff}
+			.nanoGuidance .stepsPoint.active{background:#888}.nanoGuidance a.next{font-size:14px;background:#888;color:#fff;width:56px;height:25px;line-height:25px;display:block;text-align:center;text-decoration:none;float:right;cursor:pointer}
+			.nanoGuidance a.prev{font-size:14px;background:#888;color:#fff;width:56px;height:25px;line-height:25px;display:block;text-align:center;text-decoration:none;float:left;cursor:pointer}
+			.nanoGuidanceOverlay{z-index:1999;position:absolute;background:#555;opacity:.5;left:0;top:0;width:100%}
+			div.curve{position:absolute;top:150px;left:400px;background:#666;width:200px;height:200px}
+			.nanoGuidance{background:#444;border:0;padding:40px 30px 30px 30px;border-radius:5px}
+			.nanoGuidance .stopGuide{color:#fff;right:10px;top:8px;font-size:27px}.nanoGuidance .currentText{font-family:'Open Sans',Arial;font-size:16px;line-height:21px;color:#fff;text-align:left;font-weight:300;min-height:25px;padding-bottom:38px}
+			.nanoGuidance a.next{width:90px;height:40px;line-height:40px;background:#00bfbc;border-radius:3px;position:absolute;right:30px;bottom:20px}
+			.nanoGuidance .stepsInidicator{height:10px;position:absolute;bottom:10px;left:0;width:100%;text-align:center;line-height:10px}
+			.nanoGuidance .stepsPoint{background:#fff;display:inline-block;float:none;width:10px;height:10px;border:0;margin-top:0}
+			.nanoGuidance .stepsPoint.active{background:#00bfbc}.nanoGuidance.positionBottom .triangle{border-bottom-color:#444}
+			.nanoGuidance.positionAbove .triangle{border-top-color:#444}.nanoGuidance.positionLeft .triangle{border-left-color:#444}
+			.nanoGuidance.positionRight .triangle{border-right-color:#444}.nanoGuidance .triangleBorder{display:none}
+			.guidance-selected{-webkit-animation-name:guide-selected-animation;-webkit-animation-duration:.8s;-webkit-animation-timing-function:ease-in;-webkit-animation-direction:normal;-webkit-animation-fill-mode:forwards;-webkit-animation-iteration-count:2;animation-name:guide-selected-animation;animation-duration:.8s;animation-timing-function:ease-in;animation-direction:normal;animation-fill-mode:forwards;animation-iteration-count:2}
+			@keyframes guide-selected-animation{from{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}
+			50%{-webkit-transform:scale3d(1.05,1.05,1.05);transform:scale3d(1.05,1.05,1.05)}
+			to{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}@-webkit-keyframes guide-selected-animation{from{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}
+			50%{-webkit-transform:scale3d(1.05,1.05,1.05);transform:scale3d(1.05,1.05,1.05)}
+			to{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}.guidance-fade-in{opacity:0;-webkit-animation:guide-selected-fadeIn ease-in 1;-moz-animation:guide-selected-fadeIn ease-in 1;animation:guide-selected-fadeIn ease-in 1;-webkit-animation-fill-mode:forwards;-moz-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-duration:1s;-moz-animation-duration:1s;animation-duration:1s}
+			@-webkit-keyframes guide-selected-fadeIn{from{opacity:0}to{opacity:1}}@-moz-keyframes guide-selected-fadeIn{from{opacity:0}
+			to{opacity:1}}@keyframes guide-selected-fadeIn{from{opacity:0}to{opacity:1}
+			}.nanoGuidance.light{background:#fff;border-color:1px solid #aaa;width:355px;max-width:355px;box-sizing:border-box;padding:0;padding-top:23px}
+			.nanoGuidance.light .currentText{min-height:0;padding-bottom:32px;padding-right:23px;margin-bottom:0;padding-left:23px;overflow:hidden}
+			.nanoGuidance.light .currentText h3{margin-top:0;margin-bottom:23px;padding:0;background-color:inherit;font-size:26px;line-height:normal;font-weight:300;font-family:inherit;overflow:hidden}
+			.nanoGuidance.light .currentText p{margin:0;font-size:16px;font-family:inherit;word-break:keep-all}
+			.nanoGuidance.light .stepsInidicator{height:35px;position:static;position:relative;border-top:1px solid #ccc;bottom:0;box-shadow:inset 0 4px 6px -5px rgba(0,0,0,0.5)}
+			.nanoGuidance.light .stepsPoint{display:none}.nanoGuidance.light a.next{font-size:0;background:url(//eu1-1.nanorep.com/common/guidance/images/arrow_right.png) no-repeat 9px 3px;width:24px;height:24px;border-radius:12px;right:20px;bottom:5px;position:absolute}
+			.nanoGuidance.light a.prev{font-size:0;background:url(//eu1-1.nanorep.com/common/guidance/images/arrow_left.png) no-repeat 7px 3px;width:24px;height:24px;border-radius:12px;left:20px;bottom:5px;position:absolute}
+			.nanoGuidance.light a.prev:active,.nanoGuidance.light a.next:active{box-shadow:inset 1px 1px 2px #777}
+			.nanoGuidance.light .triangle{border:20px solid rgba(0,0,0,0)}.nanoGuidance.light .triangleBorder{display:block;border:20px solid rgba(0,0,0,0)}
+			.nanoGuidance.light.positionRight .triangle{top:calc(50% - 27px);left:-35px;border-right:16px solid #fff}
+			.nanoGuidance.light.positionRight .triangleBorder{top:calc(50% - 27px);left:-37px;border-right:16px solid #ccc}
+			.nanoGuidance.light.positionLeft .triangle{top:calc(50% - 27px);right:-35px;border-left:16px solid #fff}
+			.nanoGuidance.light.positionLeft .triangleBorder{top:calc(50% - 27px);right:-37px;border-left:16px solid #ccc}
+			.nanoGuidance.light.positionBottom .triangle{left:calc(50% - 20px);top:-35px;border-bottom:16px solid #ccc}
+			.nanoGuidance.light.positionBottom .triangleBorder{left:calc(50% - 20px);top:-37px;border-bottom:16px solid #ccc}
+			.nanoGuidance.light.positionAbove .triangle{left:calc(50% - 20px);bottom:-35px;border-top:16px solid #ccc}
+			.nanoGuidance.light.positionAbove .triangleBorder{left:calc(50% - 20px);bottom:- 37px;border-top:16px solid #ccc}
+			.nanoGuidance.light .stopGuide{background:url(//eu1-1.nanorep.com/common/guidance/images/closeIcon.png) no-repeat 1px 1px;font-size:0;color:transparent;width:12px;height:12px}
+			.nanoGuidance.light a.feedback{width:25px;height:25px;display:block;text-align:center;cursor:pointer;position:absolute;bottom:3px}
+			.nanoGuidance.light a.feedback.like{background:url(//eu1-1.nanorep.com/common/guidance/images/guide-like.png) no-repeat 0 0;right:58px}
+			.nanoGuidance.light a.feedback.dislike{background:url(//eu1-1.nanorep.com/common/guidance/images/dislike-guide.png) no-repeat 0 0;right:19px}
+			.nanoGuidance.light a.feedback.like.selected{background:url(//eu1-1.nanorep.com/common/guidance/images/like_ac.png) no-repeat 0 0}
+			.nanoGuidance.light a.feedback.dislike.selected{background:url(//eu1-1.nanorep.com/common/guidance/images/dislike_ac.png) no-repeat 0 0}
+			.nanoGuidance.light .thanks_text.question{color:#888;font-size:14px}.nanoGuidance.light .thanks_text{color:#08c9c6;font-family:'Open Sans';text-align:right;position:absolute;top:13px;right:97px;font-size:16px;height:20px}

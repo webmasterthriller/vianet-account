@@ -1,0 +1,152 @@
+ul.dropdown-menu {
+  z-index: 9999;
+}
+
+[uib-typeahead-popup].dropdown-menu{
+  min-height: 30px;
+  height: auto;
+  max-height: 405px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: 1px solid #ccc;
+  width: 96%;
+  padding: 0;
+  margin: 0;
+}
+
+li{
+  display: list-item;
+  text-align: match-parent;
+  list-style-position: inherit;
+  unicode-bidi: isolate;
+}
+
+.wu-field input, .wu-field select{
+  height: 50px;
+  font-size: 14px;
+  color: #7E7E7E;
+  box-shadow: none;
+  border: 1px solid #D3D3D3;
+  font-weight: 500;
+  border-radius: 3px;
+}
+.form-control, output{
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  display: block;
+}
+.form-control {
+  width: 100%;
+  padding: 6px 12px;
+  padding-top: 6px;
+  padding-left: 12px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.flag-icon, .flag-icon-position {
+  text-align: center;
+  margin-left: 12px;
+  margin-top: 12px;
+}
+.flag-icon-size, .flag-icon.flag-icon-position {
+  width: 34px;
+  border: 1px solid #D9D9D9;
+  height: 26px;
+}
+.currency-iso-code, .flag-icon.flag-icon-position, .prc-currency-iso-code-dd {
+  position: absolute;
+  z-index: 2;
+  line-height: 34px;
+  pointer-events: none;
+  display: block;
+}
+.flag-icon {
+  background-size: cover;
+  display: inline-block;
+  line-height: 1em;
+}
+.flag-icon, .flag-icon-background {
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.flag-icon {
+  display: inline-block;
+  width: 1.33333333em;
+  line-height: 1em;
+}
+.flag-icon-fr{
+  background-image: url(https://www.westernunion.com/etc/designs/westernunion/responsive_css/images/flag-icons/svg/4x3/fr.svg);
+}
+.flag-icon-en{
+  background-image: url(https://www.westernunion.com/etc/designs/westernunion/responsive_css/images/flag-icons/svg/4x3/gb.svg);
+}
+.flag-icon-de{
+  background-image: url(https://www.westernunion.com/etc/designs/westernunion/responsive_css/images/flag-icons/svg/4x3/de.svg);
+}
+.flag-icon-es{
+  background-image: url(https://www.westernunion.com/etc/designs/westernunion/responsive_css/images/flag-icons/svg/4x3/es.svg);
+}
+.flag-icon-nl{
+  background-image: url(https://www.westernunion.com/etc/designs/westernunion/responsive_css/images/flag-icons/svg/4x3/nl.svg);
+}
+.flag-icon-pt{
+  background-image: url(https://www.westernunion.com/etc/designs/westernunion/responsive_css/images/flag-icons/svg/4x3/pt.svg);
+}
+.flag-icon-bg{
+  background-image: url(https://www.westernunion.com/etc/designs/westernunion/responsive_css/images/flag-icons/svg/4x3/bg.svg);
+}
+.flag-icon-it{
+  background-image: url(https://www.westernunion.com/etc/designs/westernunion/responsive_css/images/flag-icons/svg/4x3/it.svg);
+}
+.flag-icon-cz{
+  background-image: url(https://www.westernunion.com/etc/designs/westernunion/responsive_css/images/flag-icons/svg/4x3/cz.svg);
+}
+.flag-icon, .pos-rel {
+  position: relative;
+}
+.flag-icon, .flag-icon-background {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.typeahead-arrow {
+  background: url(img/triangle-bottom.png) right 10px center no-repeat #fff;
+}
+.typeahead-arrow, .typeahead-arrow-blue {
+  z-index: 2;
+  display: block;
+  line-height: 34px;
+  text-align: center;
+  margin-top: 9px;
+  right: 20px;
+  width: 32px;
+  pointer-events: none;
+  position: absolute;
+}
+.typeahead-arrow {
+  background-position: right 10px center;
+  color: #0a8ac7;
+  font-size: 13px;
+}
+.col-xs-12{
+  position:relative;
+  min-height:1px;
+  padding-right:15px;
+  padding-left:15px
+}
+@media (min-width:768px) {
+  .col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9 {
+    float:left
+  }
+  .col-sm-12 {
+    width:100%
+  }
+}
